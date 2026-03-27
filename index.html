@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulting Services</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>tbay consulting | Tolga Özbay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Welcome to Our Consulting Services</h1>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="p-6 bg-white shadow-sm flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-800">tbay <span class="text-gray-600">consulting</span></h1>
+        <div class="space-x-4">
+            <a href="#expertise" class="hover:text-blue-600">Expertise</a>
+            <a href="mailto:tolganeer@gmail.com" class="bg-blue-800 text-white px-4 py-2 rounded">Kontakt</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Brückenbauer zwischen Engineering & IT</h2>
+        <p class="text-xl max-w-2xl mx-auto opacity-90">
+            Diplom-Ingenieur & IT-Projektmanager. Ich begleite Ihre Projekte agil, sicher und effizient zum Erfolg.
+        </p>
     </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>We provide top-notch consulting services to help you achieve your business goals.</p>
-        </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Business Strategy</li>
-                <li>Market Research</li>
-                <li>Financial Advisory</li>
-                <li>Management Consulting</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Consulting Services. All rights reserved.</p>
-    </footer>
+
+    <section id="expertise" class="py-16 max-w-5xl mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center mb-12">Kernkompetenzen</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold text-lg mb-2">Agile Management</h4>
+                <p class="text-gray-600 text-sm">Zertifizierter Scrum Master & SAFe Experte für komplexe IT-Releases.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold text-lg mb-2">IT & Engineering</h4>
+                <p class="text-gray-600 text-sm">Schnittstellenkompetenz aus über 15 Jahren technischer Projekterfahrung.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold text-lg mb-2">Cybersecurity & KI</h4>
+                <p class="text-gray-600 text-sm">Aktuelle Expertise in Datensicherheit und Prozessoptimierung durch KI.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 py-10 text-center">
+        <p>&copy; 2026 tbay consulting – Tolga Özbay</p>
+        <p class="text-xs mt-2">Schumacherstr. 59, 22767 Hamburg</p>
+    </header>
+
 </body>
 </html>
